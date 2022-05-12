@@ -39,7 +39,7 @@ html, body {
       .logga {
         display:none;
       }
-      div[class="nav"] a {
+      .nav a {
         font-size: 0.5rem;
       }
       #text {
@@ -56,7 +56,7 @@ html, body {
     .logga {
       display:none;
     }
-    div[class="nav"] a {
+    .nav a {
       font-size: 1rem;
     }
     #text {
@@ -73,7 +73,7 @@ html, body {
       .logga {
         display:flex;
       }
-      div[class="nav"] a {
+      .nav a {
         font-size: 1.5rem;
       }
       #text {
@@ -93,7 +93,7 @@ html, body {
       .logga {
         display:flex;
       }
-      div[class="nav"] a {
+      .nav a {
         font-size: 2rem;
       }
       #text {
@@ -113,29 +113,27 @@ html, body {
   .header {
     display: flex;
   }
-  div[class="nav"]{
-    background-color: green;
-  }
- 
-  div[class="nav"] {
+
+  .nav {
     height: auto;
     display: flex;
     align-items: center;
+    background-color: green;
   }
   
-  div[class="nav"] ul {
+  .nav ul {
     padding: 0;
     list-style-type: none;
     flex: 2;
     display: flex;
   }
   
-  div[class="nav"] li {
+  .nav li {
     text-align: center;
     flex: 1;
   }
   
-  div[class="nav"] a {
+  .nav a {
     text-transform: uppercase;
     text-decoration: none;
     color: black;

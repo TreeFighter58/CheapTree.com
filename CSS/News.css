@@ -51,7 +51,7 @@ html, body {
      .logga {
        display:none;
      }
-     div[class="nav"] a {
+     .nav a {
        font-size: 0.5rem;
      }
      .skapad {
@@ -66,7 +66,7 @@ html, body {
    .logga {
      display:none;
    }
-   div[class="nav"] a {
+   .nav a {
      font-size: 1rem;
    }
    .skapad {
@@ -81,7 +81,7 @@ html, body {
      .logga {
        display:flex;
      }
-     div[class="nav"] a {
+     .nav a {
        font-size: 1.5rem;
      }
      }
@@ -101,34 +101,32 @@ html, body {
  .header {
    display: flex;
  }
- div[class="nav"]{
-   background-color: green;
- }
+ .nav {
+  height: auto;
+  display: flex;
+  align-items: center;
+  background-color: green;
+}
 
- div[class="nav"] {
-   height: auto;
-   display: flex;
-   align-items: center;
- }
- 
- div[class="nav"] ul {
-   padding: 0;
-   list-style-type: none;
-   flex: 2;
-   display: flex;
- }
- 
- div[class="nav"] li {
-   text-align: center;
-   flex: 1;
- }
- 
- div[class="nav"] a {
-   text-transform: uppercase;
-   text-decoration: none;
-   color: black;
-   justify-content:center;
- }
+.nav ul {
+  padding: 0;
+  list-style-type: none;
+  flex: 2;
+  display: flex;
+}
+
+.nav li {
+  text-align: center;
+  flex: 1;
+}
+
+.nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  justify-content:center;
+}
+
  
  
  
